@@ -1,0 +1,21 @@
+libpomodoro = library(
+    'pomodoro',
+    'src/Interfaces/Sequencer.vala',
+    'src/Interfaces/Timer.vala',
+    'src/DefaultSequencer.vala',
+    'src/DefaultTimer.vala',
+    'src/Pomodoro.vala',
+    'src/Service.vala',
+    'src/State.vala',
+    'src/TimeStatistics.vala',
+    dependencies: [
+        dependency('glib-2.0'),
+        dependency('gio-2.0'),
+        dependency('gobject-2.0'),
+        dependency('gee-0.8'),
+        dependency('json-glib-1.0'),
+    ],
+    version : '0.1',
+    install: true,
+    include_directories: include_directories('.'),
+)

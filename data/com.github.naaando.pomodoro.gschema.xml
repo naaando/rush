@@ -1,0 +1,49 @@
+<schemalist>
+  <schema id="com.github.naaando.pomodoro" path="/com/github/naaando/pomodoro/">
+    <key name="window-x" type="i">
+      <default>-1</default>
+      <summary>Window position</summary>
+      <description>The x axis of window position</description>
+    </key>
+    <key name="window-y" type="i">
+      <default>-1</default>
+      <summary>Window position</summary>
+      <description>The y axis of window position</description>
+    </key>
+        <key name="window-height" type="i">
+        <default>700</default>
+        <summary>Window position</summary>
+        <description>The height of the window</description>
+    </key>
+    <key name="window-width" type="i">
+        <default>800</default>
+        <summary>Window position</summary>
+        <description>The width of the window</description>
+    </key>
+    <key name="autorun-on-start" type="b">
+        <default>false</default>
+        <summary>Start the app running a pomodoro</summary>
+    </key>
+    <key name="auto-go-to-next-state" type="b">
+        <default>false</default>
+        <summary>Go to next state automatically</summary>
+        <description>Go automatically to the next pomodoro state after 5 seconds</description>
+    </key>
+    <key name="interval-work" type="i">
+        <default>1500</default>
+        <summary>Work interval in seconds</summary>
+    </key>
+    <key name="interval-break" type="i">
+        <default>300</default>
+        <summary>Short break interval in seconds</summary>
+    </key>
+    <key name="interval-long-break" type="i">
+        <default>900</default>
+        <summary>Long break interval in seconds</summary>
+    </key>
+    <key name="normal-breaks-before-long-break" type="i">
+        <default>4</default>
+        <summary>Count of breaks before a long time break</summary>
+    </key>
+  </schema>
+</schemalist>

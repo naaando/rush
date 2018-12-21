@@ -1,0 +1,12 @@
+@define-color colorPrimary #3d5afe;
+@define-color textColorPrimary #ffffff;
+@define-color textColorPrimaryShadow #181818;
+@define-color colorAccent #3d5afe;
+
+.working-label {
+    color: #0031ca;
+}
+
+.done-label {
+    color: #ffc400;
+}
