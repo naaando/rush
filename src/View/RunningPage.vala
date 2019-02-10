@@ -21,15 +21,20 @@ public class RunningPage : Page, PomodoroView {
     }
 
     void on_pomodoro_service_started (Pomodoro.State state) {
+        debug ("Pomodoro started");
         state_label.set_pomodoro_state (state);
 
+        Idle.add (() => {
+            timer_label.set_time_in_seconds (pomodoro_service.timer.get_remaining_time ());
+            return Source.REMOVE;
+        });
+
         cancellable = new Cancellable ();
-        Timeout.add (500, () => {
+        Timeout.add_seconds (1, () => {
             timer_label.set_time_in_seconds (pomodoro_service.timer.get_remaining_time ());
             return !cancellable.is_cancelled ();
         });
 
-        print (@"Pomodoro started\n");
         start_n_stop_stack.visible_child_name = "stop-button";
     }
 
