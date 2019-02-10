@@ -1,5 +1,5 @@
 public class Application : Gtk.Application {
-    GLib.Settings settings;
+    public static GLib.Settings settings;
     Pomodoro.Service ps;
     Unity.LauncherEntry launcher;
     Cancellable? cancellable;
