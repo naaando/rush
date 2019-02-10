@@ -45,5 +45,8 @@
         <default>4</default>
         <summary>Count of breaks before a long time break</summary>
     </key>
+    <key name="emit-sound" type="b">
+        <default>true</default>
+    </key>
   </schema>
 </schemalist>
