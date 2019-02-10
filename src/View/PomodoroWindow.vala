@@ -7,11 +7,7 @@ public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
     public PomodoroWindow.with_factory (Gtk.Application application, ViewFactory factory) {
         this (application, factory.create_running_page () as Page, factory.create_done_page () as Page);
 
-        var header_bar = new Gtk.HeaderBar ();
-        header_bar.title = "Pomodoro";
-        header_bar.show_close_button = true;
-        header_bar.get_style_context ().add_class ("default-decoration");
-
+        var header_bar = new HeaderBar ();
         set_titlebar (header_bar);
     }
 
