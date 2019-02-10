@@ -71,7 +71,7 @@ public class RunningPage : Page, PomodoroView {
     }
 
     Gtk.Widget create_time_left_label () {
-        var time_left_label = new Gtk.Label ("Left");
+        var time_left_label = new Gtk.Label (_("Left"));
         time_left_label.get_style_context ().add_class ("h2");
 
         return time_left_label;
@@ -80,9 +80,9 @@ public class RunningPage : Page, PomodoroView {
     Gtk.Widget create_control_buttons_stack () {
         var start_button = new SegmentedButton (_("Start"), "tools-timer-symbolic");
 
-        start_button.add_action ("Start working", "app.pomodoro-start-work");
-        start_button.add_action ("Start short break", "app.pomodoro-start-break");
-        start_button.add_action ("Start long break", "app.pomodoro-start-long-break");
+        start_button.add_action (_("Start working"), "app.pomodoro-start-work");
+        start_button.add_action (_("Start short break"), "app.pomodoro-start-break");
+        start_button.add_action (_("Start long break"), "app.pomodoro-start-long-break");
 
         start_button.clicked.connect (on_start_button_clicked);
 
