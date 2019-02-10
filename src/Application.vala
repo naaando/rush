@@ -60,6 +60,8 @@ public class Application : Gtk.Application {
             }
             return !cancellable.is_cancelled ();
         });
+
+        clock_finished_sound.stop ();
     }
 
     void on_pomodoro_stop () {
@@ -72,7 +74,10 @@ public class Application : Gtk.Application {
         notification.set_default_action ("app.pomodoro-start-next");
 
         send_notification ("pomodoro-stopped", notification);
-        clock_finished_sound.play ();
+
+        if (settings.get_boolean ("emit-sound")) {
+            clock_finished_sound.play ();
+        }
     }
 
     void load_custom_css () {
