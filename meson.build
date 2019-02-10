@@ -17,6 +17,7 @@ executable(
     'src/Application.vala',
     'src/Factory/ViewFactory.vala',
     'src/Interfaces/PomodoroView.vala',
+    'src/Services/EventSound.vala',
     'src/View/PomodoroWindow.vala',
     'src/View/ReportsGrid.vala',
     'src/View/Page.vala',
@@ -30,6 +31,7 @@ executable(
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
         dependency('gtk+-3.0'),
+        dependency('libcanberra'),
         dependency('unity')
     ],
     link_with: libpomodoro,

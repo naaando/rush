@@ -3,6 +3,7 @@ public class Application : Gtk.Application {
     Pomodoro.Service ps;
     Unity.LauncherEntry launcher;
     Cancellable? cancellable;
+    Service.EventSound clock_finished_sound = new Service.EventSound ("alarm-clock-elapsed", _("Alarm done"));
 
     public Application () {
         Object (application_id: "com.github.naaando.pomodoro",
@@ -71,6 +72,7 @@ public class Application : Gtk.Application {
         notification.set_default_action ("app.pomodoro-start-next");
 
         send_notification ("pomodoro-stopped", notification);
+        clock_finished_sound.play ();
     }
 
     void load_custom_css () {
