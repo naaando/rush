@@ -42,5 +42,14 @@ public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
 
     void on_pomodoro_service_stopped () {
         pages.visible_child = done_page;
+        display_window ();
+    }
+
+    private void display_window () {
+        //  FIXME: Using present () method looks broken https://stackoverflow.com/questions/9054462/how-do-i-raise-a-window-that-is-minimized-or-covered-with-pygobject
+        //  present ();
+
+        set_keep_above (true);
+        set_keep_above (false);
     }
 }
