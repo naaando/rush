@@ -31,30 +31,36 @@ public class HeaderBar : Gtk.HeaderBar {
             return new Variant ("i", (int) secs);
         };
 
+        var title = new Gtk.Label (_("Duration in minutes"));
+        grid.attach (title, 0, 0, 2);
+
         //  Work time
         var work_time_adjustment = new Gtk.Adjustment (0, 0.0, double.MAX, 1, 5, 0);
         var work_time_spin = new Gtk.SpinButton (work_time_adjustment, 4, 0);
-        grid.attach (new Gtk.Label (_("Working:")), 0, 0);
-        grid.attach (work_time_spin, 1, 0);
         Application.settings.bind_with_mapping ("interval-work", work_time_adjustment, "value", SettingsBindFlags.DEFAULT, convert_seconds_to_minutes, convert_minutes_to_seconds, null, null);
+
+        grid.attach (new Gtk.Label (_("Working:")), 0, 1);
+        grid.attach (work_time_spin, 1, 1);
 
         //  Short break
         var short_break_adjustment = new Gtk.Adjustment (0, 0, double.MAX, 1, 5, 0);
         var short_break_spin = new Gtk.SpinButton (short_break_adjustment, 1, 0);
-        grid.attach (new Gtk.Label (_("Short breaks:")), 0, 1);
-        grid.attach (short_break_spin, 1, 1);
         Application.settings.bind_with_mapping ("interval-break", short_break_adjustment, "value", SettingsBindFlags.DEFAULT, convert_seconds_to_minutes, convert_minutes_to_seconds, null, null);
+
+        grid.attach (new Gtk.Label (_("Short break:")), 0, 2);
+        grid.attach (short_break_spin, 1, 2);
 
         //  Long break
         var long_break_adjustment = new Gtk.Adjustment (0, 0, double.MAX, 1, 5, 0);
         var long_break_spin = new Gtk.SpinButton (long_break_adjustment, 1, 0);
-        grid.attach (new Gtk.Label (_("Long breaks:")), 0, 2);
-        grid.attach (long_break_spin, 1, 2);
         Application.settings.bind_with_mapping ("interval-long-break", long_break_adjustment, "value", SettingsBindFlags.DEFAULT, convert_seconds_to_minutes, convert_minutes_to_seconds, null, null);
+
+        grid.attach (new Gtk.Label (_("Long break:")), 0, 3);
+        grid.attach (long_break_spin, 1, 3);
 
         //  Align labels to end
         grid.forall ((widget) => {
-            if (widget is Gtk.Label) {
+            if (widget is Gtk.Label && widget != title) {
                 widget.halign = Gtk.Align.END;
             }
         });
