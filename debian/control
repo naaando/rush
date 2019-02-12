@@ -1,0 +1,19 @@
+Source: com.github.naaando.pomodoro
+Maintainer: Fernando da Silva Sousa <wild.nando@gmail.com>
+Section: sound
+Priority: optional
+Standards-Version: 3.9.2
+Homepage: https://github.com/naaando/pomodoro
+Build-Depends: debhelper (>=9),
+               gettext,
+               libgee-0.8-dev,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               meson,
+               valac,
+
+Package: com.github.naaando.pomodoro
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Pre-Depends: dpkg (>= 1.15)
