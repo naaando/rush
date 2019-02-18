@@ -38,6 +38,7 @@
       <description>
         <ul>
           <li>Fix broken progress bar on launcher entry in dock</li>
+          <li>Present new window instead of openning another</li>
         </ul>
       </description>
     </release>
