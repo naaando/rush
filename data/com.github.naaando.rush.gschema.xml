@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="com.github.naaando.pomodoro" path="/com/github/naaando/pomodoro/">
+  <schema id="com.github.naaando.rush" path="/com/github/naaando/rush/">
     <key name="window-x" type="i">
       <default>-1</default>
       <summary>Window position</summary>

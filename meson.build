@@ -1,4 +1,4 @@
-project ('com.github.naaando.pomodoro', 'vala', 'c')
+project ('com.github.naaando.rush', 'vala', 'c')
 
 add_global_arguments ('-DGETTEXT_PACKAGE="' + meson.project_name () + '"', language:'c')
 
@@ -6,7 +6,7 @@ subdir ('libpomodoro')
 
 gnome = import ('gnome')
 asresources = gnome.compile_resources(
-    'as-resources', 'data/com.github.naaando.pomodoro.gresource.xml',
+    'as-resources', 'data/com.github.naaando.rush.gresource.xml',
     source_dir: 'data',
     c_name: 'as'
 )

@@ -1,23 +1,23 @@
 [Desktop Entry]
-Name=Pomodoro
+Name=Rush
 GenericName=Pomodoro timer
 Comment=Proves that we can use Vala and Gtk
 Categories=Utility;
-Exec=com.github.naaando.pomodoro
-Icon=com.github.naaando.pomodoro
+Exec=com.github.naaando.rush
+Icon=com.github.naaando.rush
 Terminal=false
 Type=Application
 Keywords=Produtivity;Acessories;
 Actions=Work;Break;LongBreak;
 
 # [Desktop Action Work]
-# Exec=com.github.naaando.pomodoro --work
+# Exec=com.github.naaando.rush --work
 # Name=Start working
 
 # [Desktop Action Break]
-# Exec=com.github.naaando.pomodoro --break
+# Exec=com.github.naaando.rush --break
 # Name=Start a break
 
 # [Desktop Action LongBreak]
-# Exec=com.github.naaando.pomodoro --long-break
+# Exec=com.github.naaando.rush --long-break
 # Name=Start a long break

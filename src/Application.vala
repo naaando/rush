@@ -6,9 +6,9 @@ public class Application : Gtk.Application {
     Service.EventSound clock_finished_sound = new Service.EventSound ("alarm-clock-elapsed", _("Alarm done"));
 
     public Application () {
-        Object (application_id: "com.github.naaando.pomodoro",
+        Object (application_id: "com.github.naaando.rush",
         flags: ApplicationFlags.FLAGS_NONE);
-        settings = new Settings ("com.github.naaando.pomodoro");
+        settings = new Settings ("com.github.naaando.rush");
 
         ps = new Pomodoro.Service ();
         ps.start.connect (on_pomodoro_start);
@@ -82,7 +82,7 @@ public class Application : Gtk.Application {
 
     void load_custom_css () {
         var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/naaando/pomodoro/Application.css");
+        provider.load_from_resource ("/com/github/naaando/rush/Application.css");
         Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
     }
 
