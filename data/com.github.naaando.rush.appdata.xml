@@ -72,8 +72,8 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Fernando da Silva Sousa</developer_name>
-  <url type="homepage">https://github.com/naaando/pomodoro</url>
-  <url type="bugtracker">https://github.com/naaando/pomodoro/issues</url>
+  <url type="homepage">https://github.com/naaando/rush</url>
+  <url type="bugtracker">https://github.com/naaando/rush/issues</url>
   <custom>
     <value key="x-appcenter-color-primary">#fff</value>
     <value key="x-appcenter-color-primary-text">#000</value>
