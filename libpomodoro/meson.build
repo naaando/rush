@@ -1,4 +1,4 @@
-libpomodoro = library(
+libpomodoro = static_library(
     'pomodoro',
     'src/Interfaces/Sequencer.vala',
     'src/Interfaces/Timer.vala',
@@ -15,7 +15,6 @@ libpomodoro = library(
         dependency('gee-0.8'),
         dependency('json-glib-1.0'),
     ],
-    version : '0.1',
     install: true,
     include_directories: include_directories('.'),
 )
