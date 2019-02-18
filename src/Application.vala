@@ -43,6 +43,11 @@ public class Application : Gtk.Application {
     }
 
     protected override void activate () {
+        if (get_windows ().length () > 0) {
+            get_windows ().data.present ();
+            return;
+        }
+
         load_custom_css ();
 
         var vf = new ViewFactory (ps);
