@@ -1,6 +1,6 @@
 public class HeaderBar : Gtk.HeaderBar {
     public HeaderBar () {
-        title = "Pomodoro";
+        title = "Rush";
         show_close_button = true;
         get_style_context ().add_class ("default-decoration");
 
