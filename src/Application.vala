@@ -56,7 +56,8 @@ public class Application : Gtk.Application {
         cancellable = new Cancellable ();
         Timeout.add (500, () => {
             if (ps.timer != null) {
-                launcher.progress = ps.timer.get_elapsed_time () / ps.timer.get_total_time ();
+                double completeness = (double) ps.timer.get_elapsed_time () / ps.timer.get_total_time ();
+                launcher.progress = completeness;
             }
             return !cancellable.is_cancelled ();
         });
