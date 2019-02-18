@@ -1,6 +1,7 @@
 com.github.naaando.rush (0.1.2) bionic; urgency=medium
 
-  * Fix broken progress bar on launcher entry in dock.
+  * Fix broken progress bar on launcher entry in dock;
+  * Present new window instead of openning another.
 
  -- Fernando da Silva Sousa <wild.nando@gmail.com>  Mon, 18 Feb 2019 13:58:06 -0300
 
