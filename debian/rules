@@ -26,4 +26,4 @@ override_dh_auto_test:
 	ninja -C debian/build test
 
 override_dh_auto_install:
-	DESTDIR=${CURDIR}/debian/com.github.naaando.pomodoro ninja -C debian/build install
+	DESTDIR=${CURDIR}/debian/com.github.naaando.rush ninja -C debian/build install
