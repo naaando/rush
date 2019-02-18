@@ -34,6 +34,20 @@
     <binary>com.github.naaando.rush</binary>
   </provides>rush
   ​<releases>
+    <release version="0.1.2" date="2019-02-18">
+      <description>
+        <ul>
+          <li>Fix broken progress bar on launcher entry in dock</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.1" date="2019-02-18">
+      <description>
+        <ul>
+          <li>Rebranded to rush</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2019-02-14">
       <description>
         <ul>
