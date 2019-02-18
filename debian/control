@@ -1,9 +1,9 @@
-Source: com.github.naaando.pomodoro
+Source: com.github.naaando.rush
 Maintainer: Fernando da Silva Sousa <wild.nando@gmail.com>
 Section: sound
 Priority: optional
 Standards-Version: 3.9.2
-Homepage: https://github.com/naaando/pomodoro
+Homepage: https://github.com/naaando/rush
 Build-Depends: debhelper (>=9),
                gettext,
                libgee-0.8-dev,
@@ -12,8 +12,9 @@ Build-Depends: debhelper (>=9),
                meson,
                valac,
 
-Package: com.github.naaando.pomodoro
+Package: com.github.naaando.rush
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Pre-Depends: dpkg (>= 1.15)
+Description: Time manager app to break your work into intervals to keep you focused.
