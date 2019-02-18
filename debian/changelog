@@ -1,3 +1,15 @@
+com.github.naaando.rush (0.1.2) bionic; urgency=medium
+
+  * Fix broken progress bar on launcher entry in dock.
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Mon, 18 Feb 2019 13:58:06 -0300
+
+com.github.naaando.rush (0.1.1) bionic; urgency=medium
+
+  * Rebranded to rush.
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Mon, 18 Feb 2019 13:58:06 -0300
+
 com.github.naaando.rush (0.1) bionic; urgency=medium
 
   * Alpha release.
