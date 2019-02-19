@@ -29,6 +29,13 @@
     <binary>com.github.naaando.rush</binary>
   </provides>rush
   ​<releases>
+    <release version="0.1.4" date="2019-02-19">
+      <description>
+        <ul>
+          <li>Brand new icon</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.2" date="2019-02-18">
       <description>
         <ul>
