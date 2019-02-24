@@ -4,15 +4,16 @@ Section: sound
 Priority: optional
 Standards-Version: 4.1.4
 Homepage: https://github.com/naaando/rush
-Build-Depends: gettext,
+Build-Depends: debhelper (>=10),
                libcanberra-dev,
                libgee-0.8-dev,
                libglib2.0-dev,
                libgtk-3-dev,
                libjson-glib-dev,
+               libunity-dev,
                meson,
                valac,
-               debhelper (>=10),
+               gettext,
 
 Package: com.github.naaando.rush
 Architecture: any
