@@ -1,5 +1,11 @@
 com.github.naaando.rush (0.1.4) bionic; urgency=medium
 
+  * Fix debian release for AppCenter.
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Sun, 24 Feb 2019 00:47:20 -0300
+
+com.github.naaando.rush (0.1.4) bionic; urgency=medium
+
   * Fix debian packaging;
   * Brand new icon.
 
