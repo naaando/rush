@@ -7,7 +7,7 @@ public class Application : Gtk.Application {
 
     public Application () {
         Object (application_id: "com.github.naaando.rush",
-        flags: ApplicationFlags.FLAGS_NONE);
+        flags: ApplicationFlags.HANDLES_COMMAND_LINE);
         settings = new Settings ("com.github.naaando.rush");
 
         ps = new Pomodoro.Service ();
@@ -22,6 +22,7 @@ public class Application : Gtk.Application {
         settings.bind ("normal-breaks-before-long-break", ps, "normal-breaks-before-long-break", SettingsBindFlags.DEFAULT);
 
         add_actions ();
+        command_line.connect (handle_command_line);
     }
 
     private void add_actions () {
@@ -53,6 +54,27 @@ public class Application : Gtk.Application {
         var vf = new ViewFactory (ps);
         var main_window = vf.create_main_window (this);
         main_window.show_all ();
+    }
+
+    int handle_command_line (ApplicationCommandLine command_line) {
+        string[] args = command_line.get_arguments ();
+
+        switch (args[1]) {
+            case "--work":
+                activate_action ("pomodoro-start-work", null);
+                break;
+            case "--break":
+                activate_action ("pomodoro-start-break", null);
+                break;
+            case "--long-break":
+                activate_action ("pomodoro-start-long-break", null);
+                break;
+            default:
+                activate ();
+                break;
+        }
+
+        return 0;
     }
 
     void on_pomodoro_start () {

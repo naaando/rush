@@ -10,14 +10,14 @@ Type=Application
 Keywords=Produtivity;Acessories;Clock;
 Actions=Work;Break;LongBreak;
 
-# [Desktop Action Work]
-# Exec=com.github.naaando.rush --work
-# Name=Start working
+[Desktop Action Work]
+Exec=com.github.naaando.rush --work
+Name=Start working
 
-# [Desktop Action Break]
-# Exec=com.github.naaando.rush --break
-# Name=Start a break
+[Desktop Action Break]
+Exec=com.github.naaando.rush --break
+Name=Start a break
 
-# [Desktop Action LongBreak]
-# Exec=com.github.naaando.rush --long-break
-# Name=Start a long break
+[Desktop Action LongBreak]
+Exec=com.github.naaando.rush --long-break
+Name=Start a long break
