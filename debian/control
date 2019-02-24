@@ -4,7 +4,7 @@ Section: sound
 Priority: optional
 Standards-Version: 4.1.4
 Homepage: https://github.com/naaando/rush
-Build-Depends: debhelper (>=9),
+Build-Depends: debhelper (>=10),
                gettext,
                libgee-0.8-dev,
                libglib2.0-dev,
