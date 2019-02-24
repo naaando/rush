@@ -1,3 +1,9 @@
+com.github.naaando.rush (0.2.0) bionic; urgency=medium
+
+  * Fixes appstream metadata not being installed.
+
+ -- Fernando da Silva Sousa <wild.nando@gmail.com>  Sun, 24 Feb 2019 01:06:43 -0300
+
 com.github.naaando.rush (0.1.9) bionic; urgency=medium
 
   * Add libunity build deps.
