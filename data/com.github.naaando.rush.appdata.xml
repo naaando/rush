@@ -11,9 +11,9 @@
     </p>
   </description>
   <categories>
-​    <category>Utility</category>
-​    <category>Clock</category>
-  ​</categories>
+    <category>Utility</category>
+    <category>Clock</category>
+  </categories>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/naaando/rush/master/data/main-screen.png</image>
@@ -27,8 +27,8 @@
   </screenshots>
   <provides>
     <binary>com.github.naaando.rush</binary>
-  </provides>rush
-  ​<releases>
+  </provides>
+  <releases>
     <release version="0.2.1" date="2019-02-24">
       <description>
         <ul>
