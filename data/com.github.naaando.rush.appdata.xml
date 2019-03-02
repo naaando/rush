@@ -27,8 +27,8 @@
   </screenshots>
   <provides>
     <binary>com.github.naaando.rush</binary>
-  </provides>rush
-  ​<releases>
+  </provides>
+  <releases>
     <release version="0.2.1" date="2019-02-24">
       <description>
         <ul>
