@@ -33,7 +33,6 @@ public class DonePage : Page, PomodoroView {
         var break_time = pomodoro_service.count_time_per_state (Pomodoro.State.SHORT_BREAK) +
                          pomodoro_service.count_time_per_state (Pomodoro.State.LONG_BREAK);
         var total_time = working_time + break_time;
-        print (@"$working_time $break_time $total_time\n");
 
         reports.update_counter (pomodoro_service.count_state (Pomodoro.State.WORKING),
                                 pomodoro_service.count_state (Pomodoro.State.SHORT_BREAK),
