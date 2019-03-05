@@ -9,10 +9,10 @@ libpomodoro = static_library(
     'src/State.vala',
     'src/TimeStatistics.vala',
     dependencies: [
-        dependency('glib-2.0'),
-        dependency('gio-2.0'),
-        dependency('gobject-2.0'),
         dependency('gee-0.8'),
+        dependency('gio-2.0'),
+        dependency('glib-2.0'),
+        dependency('gobject-2.0'),
         dependency('json-glib-1.0'),
     ],
     install: true,
