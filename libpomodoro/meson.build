@@ -2,6 +2,7 @@ libpomodoro = static_library(
     'pomodoro',
     'src/Interfaces/Sequencer.vala',
     'src/Interfaces/Timer.vala',
+    'src/DateTimeSerializer.vala',
     'src/DefaultSequencer.vala',
     'src/DefaultTimer.vala',
     'src/Pomodoro.vala',
