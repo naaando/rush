@@ -29,13 +29,17 @@ public class DonePage : Page, PomodoroView {
     }
 
     void on_pomodoro_service_after_stopped () {
+        var working_time = pomodoro_service.count_time_per_state (Pomodoro.State.WORKING);
+        var break_time = pomodoro_service.count_time_per_state (Pomodoro.State.SHORT_BREAK) +
+                         pomodoro_service.count_time_per_state (Pomodoro.State.LONG_BREAK);
+        var total_time = working_time + break_time;
+        print (@"$working_time $break_time $total_time\n");
+
         reports.update_counter (pomodoro_service.count_state (Pomodoro.State.WORKING),
                                 pomodoro_service.count_state (Pomodoro.State.SHORT_BREAK),
                                 pomodoro_service.count_state (Pomodoro.State.LONG_BREAK));
 
-        reports.update_times (pomodoro_service.count_time_per_state (Pomodoro.State.WORKING),
-                              pomodoro_service.count_time_per_state (Pomodoro.State.SHORT_BREAK),
-                              pomodoro_service.count_time_per_state (Pomodoro.State.LONG_BREAK));
+        reports.update_times (working_time, break_time, total_time);
 
         next_button.label = _("Proceed to") + " " + pomodoro_service.get_next_state ().to_string ();
     }
