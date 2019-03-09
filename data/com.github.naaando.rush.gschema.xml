@@ -48,5 +48,10 @@
     <key name="emit-sound" type="b">
         <default>true</default>
     </key>
+    <key name="close-to-background" type="b">
+        <default>false</default>
+        <summary>Work in background instead of closing app</summary>
+        <description>If the timer is running, hide Main Window but continue runing the app in background</description>
+    </key>
   </schema>
 </schemalist>
