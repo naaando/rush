@@ -7,7 +7,7 @@ public class Application : Gtk.Application {
 
     public Application () {
         Object (application_id: "com.github.naaando.rush",
-        flags: ApplicationFlags.HANDLES_COMMAND_LINE);
+                flags: ApplicationFlags.HANDLES_COMMAND_LINE);
         settings = new Settings ("com.github.naaando.rush");
 
         ps = new Pomodoro.Service ();
