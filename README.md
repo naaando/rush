@@ -12,7 +12,7 @@ Time manager app to break your work into intervals to keep you focused.
 ![Rush's main screen](https://github.com/naaando/rush/blob/master/data/main-screen.png)
 ![Rush's report screen](https://github.com/naaando/rush/blob/master/data/reports-screen.png)
 
-## Building and Installation
+## Dependencies
 
 You'll need the following dependencies:
 * libgtk-3-dev
@@ -23,7 +23,7 @@ You'll need the following dependencies:
 * meson
 * valac >= 0.40.3
 
-## Building
+## Building and Installation
 
 You can specify `/usr` , `/usr/local` or `$HOME/.local`
 I recommend to stick with /usr if you aren't sure, choosing different paths may lead issues with the glib schemas.
