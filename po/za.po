@@ -1,0 +1,212 @@
+# Zhuang translations for rush package.
+# Copyright (C) 2019 THE rush'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the rush package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rush\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-09 19:14-0300\n"
+"PO-Revision-Date: 2019-03-09 19:12-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: za\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.naaando.rush.desktop:3
+#: data/com.github.naaando.rush.appdata.xml:6
+msgid "Rush"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:4
+msgid "Pomodoro timer"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:5
+#: data/com.github.naaando.rush.appdata.xml:9
+msgid "Time manager app to break your work into intervals to keep you focused."
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:8
+msgid "com.github.naaando.rush"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:11
+msgid "Produtivity;Acessories;Clock;"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:16 src/View/RunningPage.vala:83
+msgid "Start working"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:20
+msgid "Start a break"
+msgstr ""
+
+#: data/com.github.naaando.rush.desktop:24
+msgid "Start a long break"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:7
+msgid "A timer to use pomodoro technique"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:35
+msgid "Fix broken appdata"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:42
+msgid "Fix desktop actions"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:49
+msgid "Fix release problems for AppCenter"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:56
+msgid "Brand new icon"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:63
+msgid "Fixes missing dependencies on debian packaging"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:64
+msgid "Fixes appstream metadata not being installed"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:71
+msgid "Fix broken progress bar on launcher entry in dock"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:72
+msgid "Present new window instead of openning another"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:79
+msgid "Rebranded to rush"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:86
+msgid "First release"
+msgstr ""
+
+#: data/com.github.naaando.rush.appdata.xml:120
+msgid "Fernando da Silva Sousa"
+msgstr ""
+
+#: libpomodoro/src/Service.vala:56
+msgid "Pause not implemented"
+msgstr ""
+
+#: libpomodoro/src/State.vala:9
+msgid "Working"
+msgstr ""
+
+#: libpomodoro/src/State.vala:11
+msgid "Short break"
+msgstr ""
+
+#: libpomodoro/src/State.vala:13
+msgid "Long break"
+msgstr ""
+
+#: src/Application.vala:6
+msgid "Alarm done"
+msgstr ""
+
+#: src/Application.vala:101 src/View/DonePage.vala:50
+msgid "Next"
+msgstr ""
+
+#: src/Application.vala:102
+msgid "Continue working"
+msgstr ""
+
+#: src/View/DonePage.vala:43
+msgid "Proceed to"
+msgstr ""
+
+#: src/View/DonePage.vala:47
+msgid "Keep working"
+msgstr ""
+
+#: src/View/DonePage.vala:85
+msgid "Continue automatically to next pomodoro"
+msgstr ""
+
+#: src/View/HeaderBar.vala:34
+msgid "Duration in minutes"
+msgstr ""
+
+#: src/View/HeaderBar.vala:42 src/View/ReportsGrid.vala:16
+msgid "Working:"
+msgstr ""
+
+#: src/View/HeaderBar.vala:50
+msgid "Short break:"
+msgstr ""
+
+#: src/View/HeaderBar.vala:58
+msgid "Long break:"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:16 src/View/ReportsGrid.vala:17
+#: src/View/ReportsGrid.vala:18
+msgid "0 times"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:17
+msgid "Short breaks:"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:18
+msgid "Long breaks:"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:22
+msgid "Worked time:"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:23
+msgid "Time on breaks:"
+msgstr ""
+
+#: src/View/ReportsGrid.vala:24
+msgid "Total:"
+msgstr ""
+
+#: src/View/RunningPage.vala:74
+msgid "Left"
+msgstr ""
+
+#: src/View/RunningPage.vala:81
+msgid "Start"
+msgstr ""
+
+#: src/View/RunningPage.vala:84
+msgid "Start short break"
+msgstr ""
+
+#: src/View/RunningPage.vala:85
+msgid "Start long break"
+msgstr ""
+
+#: src/View/RunningPage.vala:89
+msgid "Stop"
+msgstr ""
+
+#: src/View/RunningPage.vala:105
+msgid "Start running on app startup"
+msgstr ""
+
+#: src/Widgets/TimerLabel.vala:16
+msgid "hours"
+msgstr ""
+
+#: src/Widgets/TimerLabel.vala:16
+msgid "minutes"
+msgstr ""

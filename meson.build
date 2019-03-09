@@ -1,10 +1,11 @@
 project ('com.github.naaando.rush', 'vala', 'c')
 
-add_global_arguments ('-DGETTEXT_PACKAGE="' + meson.project_name () + '"', language:'c')
+add_global_arguments ('-DGETTEXT_PACKAGE="rush"', language:'c')
 
 subdir ('libpomodoro')
 
 gnome = import ('gnome')
+i18n = import('i18n')
 asresources = gnome.compile_resources(
     'as-resources', 'data/com.github.naaando.rush.gresource.xml',
     source_dir: 'data',
@@ -42,6 +43,7 @@ executable(
 )
 
 subdir ('data')
+subdir('po')
 
 # Compile gsettings schemas and rebuild desktop icons cache
 meson.add_install_script('meson/post_install.py')
