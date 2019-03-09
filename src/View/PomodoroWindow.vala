@@ -1,6 +1,6 @@
 public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
     Gtk.Stack pages = new Gtk.Stack ();
-
+    Pomodoro.Service? pomodoro_service;
     Page running_page;
     Page done_page;
 
@@ -28,6 +28,7 @@ public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
     }
 
     public void set_pomodoro_service (Pomodoro.Service pomodoro_service) {
+        this.pomodoro_service = pomodoro_service;
         pomodoro_service.start.connect (on_pomodoro_service_started);
         pomodoro_service.stop.connect (on_pomodoro_service_stopped);
     }
@@ -47,5 +48,9 @@ public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
 
         set_keep_above (true);
         set_keep_above (false);
+    }
+
+    public override bool delete_event (Gdk.EventAny event) {
+        return (pomodoro_service != null && pomodoro_service.running) ? hide_on_delete () : false;
     }
 }
