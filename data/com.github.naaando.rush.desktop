@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Rush
 GenericName=Pomodoro timer
-Comment=Proves that we can use Vala and Gtk
+Comment=Time manager app to break your work into intervals to keep you focused.
 Categories=Utility;Clock;
 Exec=com.github.naaando.rush
 Icon=com.github.naaando.rush
