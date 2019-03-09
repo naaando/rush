@@ -51,6 +51,9 @@ public class PomodoroWindow : Gtk.ApplicationWindow, PomodoroView {
     }
 
     public override bool delete_event (Gdk.EventAny event) {
-        return (pomodoro_service != null && pomodoro_service.running) ? hide_on_delete () : false;
+        bool close_to_bg = Application.settings.get_boolean ("close-to-background");
+        bool pomodoro_is_running = pomodoro_service != null && pomodoro_service.running;
+
+        return  close_to_bg && pomodoro_is_running ? hide_on_delete () : false;
     }
 }
