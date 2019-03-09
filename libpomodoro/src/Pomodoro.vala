@@ -1,4 +1,7 @@
 public class Pomodoro.Pomodoro : Object {
+    public int id { get; set; }
+    public string session { get; set; }
+    public string? task { get; set; }
     public DateTime start_date { get; set; }
     public DateTime? end_date { get; set; }
     public State state { get; set; }
@@ -12,7 +15,11 @@ public class Pomodoro.Pomodoro : Object {
         end_date = new DateTime.now_utc ();
     }
 
-    bool is_complete () {
+    public bool is_complete () {
         return end_date != null;
+    }
+
+    public int64 elapsed () {
+        return (end_date ?? new DateTime.now_utc ()).difference (start_date);
     }
 }

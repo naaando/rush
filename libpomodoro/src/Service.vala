@@ -9,10 +9,13 @@ public class Pomodoro.Service : Object {
 
     Sequencer seq;
     TimeStatistics statistics = new TimeStatistics ();
+    Pomodoro[] history = {};
 
     public Service (Sequencer sequencer = new DefaultSequencer ()) {
         seq = sequencer;
         bind_property ("normal-breaks-before-long-break", seq, "normal-breaks-before-long-break", BindingFlags.DEFAULT);
+        DateTimeSerializer.register_serializer ();
+        restore_history ();
     }
 
     public State get_next_state () {
@@ -61,6 +64,8 @@ public class Pomodoro.Service : Object {
 
         statistics.add (current_pomodoro.state, timer.get_elapsed_time ());
         current_pomodoro.end ();
+        history += current_pomodoro;
+        save_history (current_pomodoro);
         timer.cancel ();
 
         if (was_canceled) {
@@ -79,5 +84,45 @@ public class Pomodoro.Service : Object {
             default:
                 return new DefaultTimer (1);
         }
+    }
+
+    void save_history (Pomodoro pomodoro) {
+        Json.Node? root = restore_history ();
+        Json.Array? array = root.get_array ();
+
+        if (root == null) {
+            array = new Json.Array ();
+            root = new Json.Node (Json.NodeType.ARRAY);
+
+            root.set_array (array);
+        }
+
+        array.add_element (Json.gobject_serialize (pomodoro));
+
+        Json.Generator generator = new Json.Generator ();
+        generator.root = root;
+        generator.pretty = true;
+        generator.indent = 4;
+
+        generator.to_file ("pomodoro.json");
+    }
+
+    Json.Node? restore_history () {
+        Json.Parser parser = new Json.Parser ();
+        Json.Node? root = null;
+
+        try {
+            parser.load_from_file ("pomodoro.json");
+            root = parser.get_root ();
+            root.get_array ().foreach_element ((array, index, element) => {
+                print (@"Restoring pomodoro $index\n");
+                history += Json.gobject_deserialize (typeof(Pomodoro), element) as Pomodoro;
+                print (history[history.length - 1].elapsed ().to_string () + "\n");
+            });
+        } catch (Error e) {
+            print (@"Unable to parse $(e.message)\n");
+        }
+
+        return root;
     }
 }
