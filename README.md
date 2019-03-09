@@ -26,7 +26,7 @@ You'll need the following dependencies:
 ## Building and Installation
 
 You can specify `/usr` , `/usr/local` or `$HOME/.local`
-I recommend to stick with /usr if you aren't sure, choosing different paths may lead issues with the glib schemas.
+I recommend to stick with `/usr` if you aren't sure, choosing different paths may lead issues with the glib schemas.
 
 ```
 meson build --prefix /usr/
