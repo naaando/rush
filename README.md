@@ -2,7 +2,8 @@
 
 <div align="center">
 
-# Rush ![Rush](https://github.com/naaando/rush/blob/master/data/icons/com.github.naaando.rush.svg)
+![Rush](https://github.com/naaando/rush/blob/master/data/icons/com.github.naaando.rush.svg)
+# Rush
 [![Get it on appcenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.naaando.rush)
 
 Time manager app to break your work into intervals to keep you focused.
