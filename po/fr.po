@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rush\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 19:14-0300\n"
+"POT-Creation-Date: 2019-03-23 18:58+0100\n"
 "PO-Revision-Date: 2019-03-10 09:18+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -17,85 +17,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: data/com.github.naaando.rush.desktop:3
-#: data/com.github.naaando.rush.appdata.xml:6
+#: data/com.github.naaando.rush.desktop.in:3
+#: data/com.github.naaando.rush.appdata.xml.in:6
 msgid "Rush"
 msgstr "Rush"
 
-#: data/com.github.naaando.rush.desktop:4
+#: data/com.github.naaando.rush.desktop.in:4
 msgid "Pomodoro timer"
 msgstr "Minuteur Pomodoro"
 
-#: data/com.github.naaando.rush.desktop:5
-#: data/com.github.naaando.rush.appdata.xml:9
+#: data/com.github.naaando.rush.desktop.in:5
+#: data/com.github.naaando.rush.appdata.xml.in:9
 msgid "Time manager app to break your work into intervals to keep you focused."
-msgstr "Gestionnaire de temps pour diviser votre travail en intervalles afin de vous permettre de rester concentré."
+msgstr ""
+"Gestionnaire de temps pour diviser votre travail en intervalles afin de vous "
+"permettre de rester concentré."
 
-#: data/com.github.naaando.rush.desktop:8
+#: data/com.github.naaando.rush.desktop.in:8
 msgid "com.github.naaando.rush"
 msgstr "com.github.naaando.rush"
 
-#: data/com.github.naaando.rush.desktop:11
+#: data/com.github.naaando.rush.desktop.in:11
 msgid "Produtivity;Acessories;Clock;"
 msgstr "Productivité;Accessoires;Horloge;"
 
-#: data/com.github.naaando.rush.desktop:16 src/View/RunningPage.vala:83
+#: data/com.github.naaando.rush.desktop.in:16 src/View/RunningPage.vala:83
 msgid "Start working"
 msgstr "Commencer à travailler"
 
-#: data/com.github.naaando.rush.desktop:20
+#: data/com.github.naaando.rush.desktop.in:20
 msgid "Start a break"
 msgstr "Faire une pause"
 
-#: data/com.github.naaando.rush.desktop:24
+#: data/com.github.naaando.rush.desktop.in:24
 msgid "Start a long break"
 msgstr "Faire une longue pause"
 
-#: data/com.github.naaando.rush.appdata.xml:7
+#: data/com.github.naaando.rush.appdata.xml.in:7
 msgid "A timer to use pomodoro technique"
 msgstr "Un minuteur pour utiliser la technique Pomodoro"
 
-#: data/com.github.naaando.rush.appdata.xml:35
+#: data/com.github.naaando.rush.appdata.xml.in:35
 msgid "Fix broken appdata"
 msgstr "Corrections dans appdata"
 
-#: data/com.github.naaando.rush.appdata.xml:42
+#: data/com.github.naaando.rush.appdata.xml.in:42
 msgid "Fix desktop actions"
 msgstr "Correction des actions du bureau"
 
-#: data/com.github.naaando.rush.appdata.xml:49
+#: data/com.github.naaando.rush.appdata.xml.in:49
 msgid "Fix release problems for AppCenter"
 msgstr "Correction des problèmes de version avec le Centre d'Applications"
 
-#: data/com.github.naaando.rush.appdata.xml:56
+#: data/com.github.naaando.rush.appdata.xml.in:56
 msgid "Brand new icon"
 msgstr "Nouvelle icône"
 
-#: data/com.github.naaando.rush.appdata.xml:63
+#: data/com.github.naaando.rush.appdata.xml.in:63
 msgid "Fixes missing dependencies on debian packaging"
 msgstr "Correction des dépendances manquantes dans les paquets debian"
 
-#: data/com.github.naaando.rush.appdata.xml:64
+#: data/com.github.naaando.rush.appdata.xml.in:64
 msgid "Fixes appstream metadata not being installed"
 msgstr "Correction des métadonnées appstream qui ne s'installent pas"
 
-#: data/com.github.naaando.rush.appdata.xml:71
+#: data/com.github.naaando.rush.appdata.xml.in:71
 msgid "Fix broken progress bar on launcher entry in dock"
 msgstr "Correction de la barre de progression dans le dock"
 
-#: data/com.github.naaando.rush.appdata.xml:72
+#: data/com.github.naaando.rush.appdata.xml.in:72
 msgid "Present new window instead of openning another"
-msgstr "Affiche une nouvelle fenêtre au lieu d'ouvrir une nouvelle fois l'application"
+msgstr ""
+"Affiche une nouvelle fenêtre au lieu d'ouvrir une nouvelle fois l'application"
 
-#: data/com.github.naaando.rush.appdata.xml:79
+#: data/com.github.naaando.rush.appdata.xml.in:79
 msgid "Rebranded to rush"
 msgstr "Nouveau nom pour Rush"
 
-#: data/com.github.naaando.rush.appdata.xml:86
+#: data/com.github.naaando.rush.appdata.xml.in:86
 msgid "First release"
 msgstr "Première version"
 
-#: data/com.github.naaando.rush.appdata.xml:120
+#: data/com.github.naaando.rush.appdata.xml.in:120
 msgid "Fernando da Silva Sousa"
 msgstr "Fernando da Silva Sousa"
 
@@ -103,15 +106,15 @@ msgstr "Fernando da Silva Sousa"
 msgid "Pause not implemented"
 msgstr "Pause non implémentée"
 
-#: libpomodoro/src/State.vala:9
+#: libpomodoro/src/State.vala:9 src/Widgets/PomodoroLabel.vala:15
 msgid "Working"
 msgstr "Travail"
 
-#: libpomodoro/src/State.vala:11
+#: libpomodoro/src/State.vala:11 src/Widgets/PomodoroLabel.vala:19
 msgid "Short break"
 msgstr "Pause courte"
 
-#: libpomodoro/src/State.vala:13
+#: libpomodoro/src/State.vala:13 src/Widgets/PomodoroLabel.vala:23
 msgid "Long break"
 msgstr "Pause longue"
 
@@ -119,11 +122,11 @@ msgstr "Pause longue"
 msgid "Alarm done"
 msgstr "Alarme terminée"
 
-#: src/Application.vala:101 src/View/DonePage.vala:50
+#: src/Application.vala:100 src/View/DonePage.vala:50
 msgid "Next"
 msgstr "Suivant"
 
-#: src/Application.vala:102
+#: src/Application.vala:101
 msgid "Continue working"
 msgstr "Continuer à travailler"
 
@@ -134,6 +137,14 @@ msgstr "Procéder à"
 #: src/View/DonePage.vala:47
 msgid "Keep working"
 msgstr "Continuer à travailler"
+
+#: src/View/DonePage.vala:65
+msgid "Done"
+msgstr "Terminé"
+
+#: src/View/DonePage.vala:73
+msgid "Reports"
+msgstr "Rapports"
 
 #: src/View/DonePage.vala:85
 msgid "Continue automatically to next pomodoro"
