@@ -1,0 +1,103 @@
+# French translations for rush package.
+# Copyright (C) 2019 THE rush'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the rush package.
+# NathanBnm, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 22:46+0100\n"
+"PO-Revision-Date: 2019-03-10 09:18+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.naaando.rush.desktop.in:3
+#: data/com.github.naaando.rush.appdata.xml.in:6
+msgid "Rush"
+msgstr "Rush"
+
+#: data/com.github.naaando.rush.desktop.in:4
+msgid "Pomodoro timer"
+msgstr "Minuteur Pomodoro"
+
+#: data/com.github.naaando.rush.desktop.in:5
+#: data/com.github.naaando.rush.appdata.xml.in:9
+msgid "Time manager app to break your work into intervals to keep you focused."
+msgstr ""
+"Gestionnaire de temps pour diviser votre travail en intervalles afin de vous "
+"permettre de rester concentré."
+
+#: data/com.github.naaando.rush.desktop.in:8
+msgid "com.github.naaando.rush"
+msgstr "com.github.naaando.rush"
+
+#: data/com.github.naaando.rush.desktop.in:11
+msgid "Produtivity;Acessories;Clock;"
+msgstr "Productivité;Accessoires;Horloge;"
+
+#: data/com.github.naaando.rush.desktop.in:16
+msgid "Start working"
+msgstr "Commencer à travailler"
+
+#: data/com.github.naaando.rush.desktop.in:20
+msgid "Start a break"
+msgstr "Faire une pause"
+
+#: data/com.github.naaando.rush.desktop.in:24
+msgid "Start a long break"
+msgstr "Faire une longue pause"
+
+#: data/com.github.naaando.rush.appdata.xml.in:7
+msgid "A timer to use pomodoro technique"
+msgstr "Un minuteur pour utiliser la technique Pomodoro"
+
+#: data/com.github.naaando.rush.appdata.xml.in:35
+msgid "Fix broken appdata"
+msgstr "Corrections dans appdata"
+
+#: data/com.github.naaando.rush.appdata.xml.in:42
+msgid "Fix desktop actions"
+msgstr "Correction des actions du bureau"
+
+#: data/com.github.naaando.rush.appdata.xml.in:49
+msgid "Fix release problems for AppCenter"
+msgstr "Correction des problèmes de version avec le Centre d'Applications"
+
+#: data/com.github.naaando.rush.appdata.xml.in:56
+msgid "Brand new icon"
+msgstr "Nouvelle icône"
+
+#: data/com.github.naaando.rush.appdata.xml.in:63
+msgid "Fixes missing dependencies on debian packaging"
+msgstr "Correction des dépendances manquantes dans les paquets debian"
+
+#: data/com.github.naaando.rush.appdata.xml.in:64
+msgid "Fixes appstream metadata not being installed"
+msgstr "Correction des métadonnées appstream qui ne s'installent pas"
+
+#: data/com.github.naaando.rush.appdata.xml.in:71
+msgid "Fix broken progress bar on launcher entry in dock"
+msgstr "Correction de la barre de progression dans le dock"
+
+#: data/com.github.naaando.rush.appdata.xml.in:72
+msgid "Present new window instead of openning another"
+msgstr ""
+"Affiche une nouvelle fenêtre au lieu d'ouvrir une nouvelle fois l'application"
+
+#: data/com.github.naaando.rush.appdata.xml.in:79
+msgid "Rebranded to rush"
+msgstr "Nouveau nom pour Rush"
+
+#: data/com.github.naaando.rush.appdata.xml.in:86
+msgid "First release"
+msgstr "Première version"
+
+#: data/com.github.naaando.rush.appdata.xml.in:120
+msgid "Fernando da Silva Sousa"
+msgstr "Fernando da Silva Sousa"

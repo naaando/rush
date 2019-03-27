@@ -1,6 +1,3 @@
-data/com.github.naaando.rush.desktop.in
-data/com.github.naaando.rush.appdata.xml.in
-
 libpomodoro/src/Interfaces/Sequencer.vala
 libpomodoro/src/Interfaces/Timer.vala
 libpomodoro/src/DefaultSequencer.vala

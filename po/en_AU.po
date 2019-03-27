@@ -1,104 +1,21 @@
-# English translations for rush package.
-# Copyright (C) 2019 THE rush'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the rush package.
+# English translations for com.github.naaando.rush package.
+# Copyright (C) 2019 THE com.github.naaando.rush'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.naaando.rush package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: rush\n"
+"Project-Id-Version: com.github.naaando.rush\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 18:58+0100\n"
-"PO-Revision-Date: 2019-03-09 19:12-0300\n"
+"POT-Creation-Date: 2019-03-27 22:43+0100\n"
+"PO-Revision-Date: 2019-03-27 22:43+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_AU\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: data/com.github.naaando.rush.desktop.in:3
-#: data/com.github.naaando.rush.appdata.xml.in:6
-msgid "Rush"
-msgstr "Rush"
-
-#: data/com.github.naaando.rush.desktop.in:4
-msgid "Pomodoro timer"
-msgstr "Pomodoro timer"
-
-#: data/com.github.naaando.rush.desktop.in:5
-#: data/com.github.naaando.rush.appdata.xml.in:9
-msgid "Time manager app to break your work into intervals to keep you focused."
-msgstr ""
-"Time manager app to break your work into intervals to keep you focused."
-
-#: data/com.github.naaando.rush.desktop.in:8
-msgid "com.github.naaando.rush"
-msgstr "com.github.naaando.rush"
-
-#: data/com.github.naaando.rush.desktop.in:11
-msgid "Produtivity;Acessories;Clock;"
-msgstr "Produtivity;Acessories;Clock;"
-
-#: data/com.github.naaando.rush.desktop.in:16 src/View/RunningPage.vala:83
-msgid "Start working"
-msgstr "Start working"
-
-#: data/com.github.naaando.rush.desktop.in:20
-msgid "Start a break"
-msgstr "Start a break"
-
-#: data/com.github.naaando.rush.desktop.in:24
-msgid "Start a long break"
-msgstr "Start a long break"
-
-#: data/com.github.naaando.rush.appdata.xml.in:7
-msgid "A timer to use pomodoro technique"
-msgstr "A timer to use pomodoro technique"
-
-#: data/com.github.naaando.rush.appdata.xml.in:35
-msgid "Fix broken appdata"
-msgstr "Fix broken appdata"
-
-#: data/com.github.naaando.rush.appdata.xml.in:42
-msgid "Fix desktop actions"
-msgstr "Fix desktop actions"
-
-#: data/com.github.naaando.rush.appdata.xml.in:49
-msgid "Fix release problems for AppCenter"
-msgstr "Fix release problems for AppCenter"
-
-#: data/com.github.naaando.rush.appdata.xml.in:56
-msgid "Brand new icon"
-msgstr "Brand new icon"
-
-#: data/com.github.naaando.rush.appdata.xml.in:63
-msgid "Fixes missing dependencies on debian packaging"
-msgstr "Fixes missing dependencies on debian packaging"
-
-#: data/com.github.naaando.rush.appdata.xml.in:64
-msgid "Fixes appstream metadata not being installed"
-msgstr "Fixes appstream metadata not being installed"
-
-#: data/com.github.naaando.rush.appdata.xml.in:71
-msgid "Fix broken progress bar on launcher entry in dock"
-msgstr "Fix broken progress bar on launcher entry in dock"
-
-#: data/com.github.naaando.rush.appdata.xml.in:72
-msgid "Present new window instead of openning another"
-msgstr "Present new window instead of openning another"
-
-#: data/com.github.naaando.rush.appdata.xml.in:79
-msgid "Rebranded to rush"
-msgstr "Rebranded to rush"
-
-#: data/com.github.naaando.rush.appdata.xml.in:86
-msgid "First release"
-msgstr "First release"
-
-#: data/com.github.naaando.rush.appdata.xml.in:120
-msgid "Fernando da Silva Sousa"
-msgstr "Fernando da Silva Sousa"
 
 #: libpomodoro/src/Service.vala:56
 msgid "Pause not implemented"
@@ -138,11 +55,11 @@ msgstr "Keep working"
 
 #: src/View/DonePage.vala:65
 msgid "Done"
-msgstr ""
+msgstr "Done"
 
 #: src/View/DonePage.vala:73
 msgid "Reports"
-msgstr ""
+msgstr "Reports"
 
 #: src/View/DonePage.vala:85
 msgid "Continue automatically to next pomodoro"
@@ -197,6 +114,10 @@ msgstr "Left"
 msgid "Start"
 msgstr "Start"
 
+#: src/View/RunningPage.vala:83
+msgid "Start working"
+msgstr "Start working"
+
 #: src/View/RunningPage.vala:84
 msgid "Start short break"
 msgstr "Start short break"
@@ -220,6 +141,3 @@ msgstr "hours"
 #: src/Widgets/TimerLabel.vala:16
 msgid "minutes"
 msgstr "minutes"
-
-#~ msgid "Proves that we can use Vala and Gtk"
-#~ msgstr "Proves that we can use Vala and Gtk"
