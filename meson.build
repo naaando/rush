@@ -47,7 +47,7 @@ executable(
     install: true
 )
 
-subdir ('data')
+subdir('data')
 subdir('po')
 
 # Compile gsettings schemas and rebuild desktop icons cache
