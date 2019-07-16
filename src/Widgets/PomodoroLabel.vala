@@ -12,15 +12,15 @@ public class PomodoroLabel : Gtk.Label {
         switch (pomodoro_state) {
             case Pomodoro.State.WORKING:
                 add_class ("working-label");
-                label = (_("Working"));
+                label = _("Working");
                 break;
             case Pomodoro.State.SHORT_BREAK:
                 add_class ("shortbreak-label");
-                label = (_("Short break"));
+                label = _("Short break");
                 break;
             case Pomodoro.State.LONG_BREAK:
                 add_class ("longbreak-label");
-                label = (_("Long break"));
+                label = _("Long break");
                 break;
         }
     }
