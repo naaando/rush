@@ -1,15 +1,14 @@
-# Polish translations for rush package.
-# Copyright (C) 2019 THE rush'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the rush package.
-# Automatically generated, 2019.
+# Polish translations for Rush.
+# This file is distributed under the same license as the com.github.naaando.rush package.
+# Michał Nowakowski <nowakowski@offshore.rocks>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: rush\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-09 19:14-0300\n"
-"PO-Revision-Date: 2019-03-09 19:12-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2019-11-18 13:12-0300\n"
+"Last-Translator: Michał Nowakowski <nowakowski@offshore.rocks>\n"
 "Language-Team: none\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -21,194 +20,194 @@ msgstr ""
 #: data/com.github.naaando.rush.desktop:3
 #: data/com.github.naaando.rush.appdata.xml:6
 msgid "Rush"
-msgstr ""
+msgstr "Rush"
 
 #: data/com.github.naaando.rush.desktop:4
 msgid "Pomodoro timer"
-msgstr ""
+msgstr "Czasomierz Pomodoro"
 
 #: data/com.github.naaando.rush.desktop:5
 #: data/com.github.naaando.rush.appdata.xml:9
 msgid "Time manager app to break your work into intervals to keep you focused."
-msgstr ""
+msgstr "Aplikacja zarządzająca czasem, dzięki której podzielisz pracę na interwały i pozostaniesz skupiony."
 
 #: data/com.github.naaando.rush.desktop:8
 msgid "com.github.naaando.rush"
-msgstr ""
+msgstr "com.github.naaando.rush"
 
 #: data/com.github.naaando.rush.desktop:11
 msgid "Produtivity;Acessories;Clock;"
-msgstr ""
+msgstr "Produktywność;Akcesoria;Zegar"
 
 #: data/com.github.naaando.rush.desktop:16 src/View/RunningPage.vala:83
 msgid "Start working"
-msgstr ""
+msgstr "Zacznij pracować"
 
 #: data/com.github.naaando.rush.desktop:20
 msgid "Start a break"
-msgstr ""
+msgstr "Rozpocznij przerwę"
 
 #: data/com.github.naaando.rush.desktop:24
 msgid "Start a long break"
-msgstr ""
+msgstr "Rozpocznij długą przerwę"
 
 #: data/com.github.naaando.rush.appdata.xml:7
 msgid "A timer to use pomodoro technique"
-msgstr ""
+msgstr "Czasomierz wykorzystujący technikę Pomodoro"
 
 #: data/com.github.naaando.rush.appdata.xml:35
 msgid "Fix broken appdata"
-msgstr ""
+msgstr "Naprawiono uszkodzone AppData"
 
 #: data/com.github.naaando.rush.appdata.xml:42
 msgid "Fix desktop actions"
-msgstr ""
+msgstr "Naprawiono akcje pulpitu"
 
 #: data/com.github.naaando.rush.appdata.xml:49
 msgid "Fix release problems for AppCenter"
-msgstr ""
+msgstr "Naprawiono problemy z AppCenter"
 
 #: data/com.github.naaando.rush.appdata.xml:56
 msgid "Brand new icon"
-msgstr ""
+msgstr "Nowa ikona"
 
 #: data/com.github.naaando.rush.appdata.xml:63
 msgid "Fixes missing dependencies on debian packaging"
-msgstr ""
+msgstr "Poprawki brakujące zależności w paczce Debiana"
 
 #: data/com.github.naaando.rush.appdata.xml:64
 msgid "Fixes appstream metadata not being installed"
-msgstr ""
+msgstr "Poprawiono nieinstalujące się appstream metadata"
 
 #: data/com.github.naaando.rush.appdata.xml:71
 msgid "Fix broken progress bar on launcher entry in dock"
-msgstr ""
+msgstr "Poprawiono zepsuty pasek postępu w doku"
 
 #: data/com.github.naaando.rush.appdata.xml:72
 msgid "Present new window instead of openning another"
-msgstr ""
+msgstr "Pokazywanie nowego okna zamiast otwierania kolejnego"
 
 #: data/com.github.naaando.rush.appdata.xml:79
 msgid "Rebranded to rush"
-msgstr ""
+msgstr "Nazwa zmieniona na Rush"
 
 #: data/com.github.naaando.rush.appdata.xml:86
 msgid "First release"
-msgstr ""
+msgstr "Pierwsza wersja"
 
 #: data/com.github.naaando.rush.appdata.xml:120
 msgid "Fernando da Silva Sousa"
-msgstr ""
+msgstr "Fernando da Silva Sousa"
 
 #: libpomodoro/src/Service.vala:56
 msgid "Pause not implemented"
-msgstr ""
+msgstr "Pauza niezaimplementowana"
 
 #: libpomodoro/src/State.vala:9
 msgid "Working"
-msgstr ""
+msgstr "Pracujesz"
 
 #: libpomodoro/src/State.vala:11
 msgid "Short break"
-msgstr ""
+msgstr "Krótka przerwa"
 
 #: libpomodoro/src/State.vala:13
 msgid "Long break"
-msgstr ""
+msgstr "Długa przerwa"
 
 #: src/Application.vala:6
 msgid "Alarm done"
-msgstr ""
+msgstr "Alarm zakończony"
 
 #: src/Application.vala:101 src/View/DonePage.vala:50
 msgid "Next"
-msgstr ""
+msgstr "Dalej"
 
 #: src/Application.vala:102
 msgid "Continue working"
-msgstr ""
+msgstr "Kontynuuj pracę"
 
 #: src/View/DonePage.vala:43
 msgid "Proceed to"
-msgstr ""
+msgstr "Przejdź do"
 
 #: src/View/DonePage.vala:47
 msgid "Keep working"
-msgstr ""
+msgstr "Pracuj dalej"
 
 #: src/View/DonePage.vala:85
 msgid "Continue automatically to next pomodoro"
-msgstr ""
+msgstr "Kontynuuj automatycznie do następnego pomodoro"
 
 #: src/View/HeaderBar.vala:34
 msgid "Duration in minutes"
-msgstr ""
+msgstr "Długość w minutach"
 
 #: src/View/HeaderBar.vala:42 src/View/ReportsGrid.vala:16
 msgid "Working:"
-msgstr ""
+msgstr "Praca:"
 
 #: src/View/HeaderBar.vala:50
 msgid "Short break:"
-msgstr ""
+msgstr "Krótka przerwa"
 
 #: src/View/HeaderBar.vala:58
 msgid "Long break:"
-msgstr ""
+msgstr "Długa przerwa"
 
 #: src/View/ReportsGrid.vala:16 src/View/ReportsGrid.vala:17
 #: src/View/ReportsGrid.vala:18
 msgid "0 times"
-msgstr ""
+msgstr "0 razy"
 
 #: src/View/ReportsGrid.vala:17
 msgid "Short breaks:"
-msgstr ""
+msgstr "Krótkie przerwy:"
 
 #: src/View/ReportsGrid.vala:18
 msgid "Long breaks:"
-msgstr ""
+msgstr "Długie przerwy:"
 
 #: src/View/ReportsGrid.vala:22
 msgid "Worked time:"
-msgstr ""
+msgstr "Czas przepracowany:"
 
 #: src/View/ReportsGrid.vala:23
 msgid "Time on breaks:"
-msgstr ""
+msgstr "Czas spędzony na przerwach:"
 
 #: src/View/ReportsGrid.vala:24
 msgid "Total:"
-msgstr ""
+msgstr "Łącznie"
 
 #: src/View/RunningPage.vala:74
 msgid "Left"
-msgstr ""
+msgstr "pozostało"
 
 #: src/View/RunningPage.vala:81
 msgid "Start"
-msgstr ""
+msgstr "Rozpocznij"
 
 #: src/View/RunningPage.vala:84
 msgid "Start short break"
-msgstr ""
+msgstr "Rozpocznij krótką przerwę"
 
 #: src/View/RunningPage.vala:85
 msgid "Start long break"
-msgstr ""
+msgstr "Rozpocznij długą przerwę"
 
 #: src/View/RunningPage.vala:89
 msgid "Stop"
-msgstr ""
+msgstr "Przerwij"
 
 #: src/View/RunningPage.vala:105
 msgid "Start running on app startup"
-msgstr ""
+msgstr "Uruchamiaj aplikację wystartowaną"
 
 #: src/Widgets/TimerLabel.vala:16
 msgid "hours"
-msgstr ""
+msgstr "godzin"
 
 #: src/Widgets/TimerLabel.vala:16
 msgid "minutes"
-msgstr ""
+msgstr "minut/y"
