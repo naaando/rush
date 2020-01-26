@@ -31,7 +31,7 @@ executable(
     meson.project_name(),
     asresources,
     sources,
-    dependencies,
+    dependencies: dependencies,
     link_with: libpomodoro,
     include_directories: include_directories('libpomodoro'),
     install: true
