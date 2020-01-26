@@ -1,143 +1,143 @@
-# French translations for com.github.naaando.rush package.
-# Copyright (C) 2019 THE com.github.naaando.rush'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.naaando.rush package.
-# Nathan Bonnemains (@NathanBnm), 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.naaando.rush\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 15:15+0100\n"
-"PO-Revision-Date: 2019-03-27 22:43+0100\n"
-"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
-"Language-Team: Français\n"
-"Language: fr\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: libpomodoro/src/Service.vala:56
 msgid "Pause not implemented"
-msgstr "Pause non implémentée"
+msgstr ""
 
 #: libpomodoro/src/State.vala:9 src/Widgets/PomodoroLabel.vala:15
 msgid "Working"
-msgstr "Travail"
+msgstr ""
 
 #: libpomodoro/src/State.vala:11 src/Widgets/PomodoroLabel.vala:19
 msgid "Short break"
-msgstr "Pause courte"
+msgstr ""
 
 #: libpomodoro/src/State.vala:13 src/Widgets/PomodoroLabel.vala:23
 msgid "Long break"
-msgstr "Pause longue"
+msgstr ""
 
 #: src/Application.vala:6
 msgid "Alarm done"
-msgstr "Alarme terminée"
+msgstr ""
 
 #: src/Application.vala:100 src/View/DonePage.vala:50
 msgid "Next"
-msgstr "Suivant"
+msgstr ""
 
 #: src/Application.vala:101
 msgid "Continue working"
-msgstr "Continuer à travailler"
+msgstr ""
 
 #: src/View/DonePage.vala:43
 msgid "Proceed to"
-msgstr "Procéder à"
+msgstr ""
 
 #: src/View/DonePage.vala:47
 msgid "Keep working"
-msgstr "Continuer à travailler"
+msgstr ""
 
 #: src/View/DonePage.vala:65
 msgid "Done"
-msgstr "Terminé"
+msgstr ""
 
 #: src/View/DonePage.vala:73
 msgid "Reports"
-msgstr "Rapports"
+msgstr ""
 
 #: src/View/DonePage.vala:85
 msgid "Continue automatically to next pomodoro"
-msgstr "Continuer automatiquement au prochain Pomodoro"
+msgstr ""
 
 #: src/View/HeaderBar.vala:34
 msgid "Duration in minutes"
-msgstr "Durée en minutes"
+msgstr ""
 
 #: src/View/HeaderBar.vala:42 src/View/ReportsGrid.vala:16
 msgid "Working:"
-msgstr "Travail :"
+msgstr ""
 
 #: src/View/HeaderBar.vala:50
 msgid "Short break:"
-msgstr "Pause courte :"
+msgstr ""
 
 #: src/View/HeaderBar.vala:58
 msgid "Long break:"
-msgstr "Pause longue :"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:16 src/View/ReportsGrid.vala:17
 #: src/View/ReportsGrid.vala:18
 msgid "0 times"
-msgstr "0 fois"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:17
 msgid "Short breaks:"
-msgstr "Pauses courtes :"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:18
 msgid "Long breaks:"
-msgstr "Pauses longues :"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:22
 msgid "Worked time:"
-msgstr "Temps de travail :"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:23
 msgid "Time on breaks:"
-msgstr "Temps de pause :"
+msgstr ""
 
 #: src/View/ReportsGrid.vala:24
 msgid "Total:"
-msgstr "Total :"
+msgstr ""
 
 #: src/View/RunningPage.vala:74
 msgid "Left"
-msgstr "Restantes"
+msgstr ""
 
 #: src/View/RunningPage.vala:81
 msgid "Start"
-msgstr "Commencer"
+msgstr ""
 
 #: src/View/RunningPage.vala:83
 msgid "Start working"
-msgstr "Commencer à travailler"
+msgstr ""
 
 #: src/View/RunningPage.vala:84
 msgid "Start short break"
-msgstr "Commencer une pause courte"
+msgstr ""
 
 #: src/View/RunningPage.vala:85
 msgid "Start long break"
-msgstr "Commencer un pause longue"
+msgstr ""
 
 #: src/View/RunningPage.vala:89
 msgid "Stop"
-msgstr "Arrêter"
+msgstr ""
 
 #: src/View/RunningPage.vala:105
 msgid "Start running on app startup"
-msgstr "Exécuter et lancer au démarrage"
+msgstr ""
 
 #: src/Widgets/TimerLabel.vala:16
 msgid "hours"
-msgstr "heures"
+msgstr ""
 
 #: src/Widgets/TimerLabel.vala:16
 msgid "minutes"
-msgstr "minutes"
+msgstr ""

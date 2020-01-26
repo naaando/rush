@@ -62,7 +62,7 @@ public class DonePage : Page, PomodoroView {
     }
 
     Gtk.Widget create_done_label () {
-        var done_label = new Gtk.Label ("Done");
+        var done_label = new Gtk.Label (_("Done"));
         done_label.get_style_context ().add_class ("h1");
         done_label.get_style_context ().add_class ("done-label");
 
@@ -70,7 +70,7 @@ public class DonePage : Page, PomodoroView {
     }
 
     Gtk.Widget create_reports_label () {
-        var reports_label = new Gtk.Label ("Reports");
+        var reports_label = new Gtk.Label (_("Reports"));
         reports_label.get_style_context ().add_class ("h2");
         reports_label.get_style_context ().add_class ("reports-label");
 
