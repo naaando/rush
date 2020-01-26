@@ -14,6 +14,5 @@ libpomodoro = static_library(
     name,
     sources,
     dependencies: dependencies,
-    install: true,
-    include_directories: include_directories('.'),
+    install: true
 )
