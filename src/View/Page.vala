@@ -2,14 +2,13 @@ public abstract class Page : Gtk.Box {
     protected Gtk.Box? center_box;
     protected Gtk.Box? end_box;
 
-    public Page () {
+    protected Page () {
         orientation = Gtk.Orientation.VERTICAL;
         margin = 6;
         spacing = 6;
         vexpand = true;
         homogeneous = false;
         baseline_position = Gtk.BaselinePosition.CENTER;
-
     }
 
     public void add_to_center (Gtk.Widget widget) {
