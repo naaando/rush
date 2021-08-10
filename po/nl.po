@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Dutch <vistausss@outlook.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.1.1\n"
@@ -102,7 +102,7 @@ msgstr "Fernando da Silva Sousa"
 
 #: libpomodoro/src/Service.vala:56
 msgid "Pause not implemented"
-msgstr "Pauze niet geïmplementeerd"
+msgstr "Pauze niet geï¿½mplementeerd"
 
 #: libpomodoro/src/State.vala:9
 msgid "Working"
@@ -212,4 +212,3 @@ msgstr "uur"
 #: src/Widgets/TimerLabel.vala:16
 msgid "minutes"
 msgstr "minuten"
-
