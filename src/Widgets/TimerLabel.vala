@@ -2,7 +2,7 @@ public class TimerLabel : Gtk.Label {
     public void set_time_in_seconds (uint _seconds, bool compact = true) {
         var hours = (int) (_seconds/3600); // 3600 == 1h
         var minutes = (int) (_seconds - (hours * 3600))/60;
-        var seconds = (int) _seconds - (minutes * 60);
+        var seconds = (int) _seconds - (minutes * 60) - (hours * 3600);
 
         if (compact) {
             label = "%.2i:%.2i".printf (minutes, seconds);
